@@ -59,7 +59,7 @@ $(function() {
                 layer.msg('登陆成功！');
                 // 将登录成功得到的 token 字符串，保存到localStorage 中
                 localStorage.setItem('token', res.token);
-                location.href = '/bigevent/index.html';
+                location.href = '/index.html';
             }
         })
     })

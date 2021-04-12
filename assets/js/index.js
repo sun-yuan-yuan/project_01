@@ -7,7 +7,7 @@ $(function() {
             // 1、清空本地存储的token
             localStorage.removeItem('token');
             // 2、重新跳转到登录页
-            location.href = '/bigevent/login.html';
+            location.href = '/login.html';
             // 关闭confirm询问框
             layui.layer.close(index);
         })
